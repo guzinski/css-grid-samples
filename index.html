@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Grids</title>
+    <style>
+
+      .wrapper {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-gap: 1em;
+      }
+      
+      .wrapper > div {
+        background-color: #eee;
+        padding: 1em;
+      }
+      .wrapper > div:nth-child(odd) {
+          background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="wrapper">
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, velit temporibus laudantium nobis ad quos aliquam odio alias quae magni nesciunt delectus quis sapiente eaque laborum rem labore! Explicabo sunt libero dolorem, ex consequatur atque ea nisi et perferendis nemo totam facere quas laudantium, quisquam illo praesentium sint, sit quaerat ab quis. Eos optio explicabo animi praesentium architecto reprehenderit id doloribus laborum molestiae suscipit sed facilis quae excepturi, nam dolorem sunt minima incidunt quas accusantium reiciendis a consequatur ullam. Blanditiis.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nesciunt sunt voluptas eaque, doloremque modi dolor sequi. Minus nesciunt nemo id doloremque sed impedit earum quaerat atque molestiae dolorem? Sapiente.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, velit temporibus laudantium nobis ad quos aliquam odio alias quae magni nesciunt delectus quis sapiente eaque laborum rem labore! Explicabo sunt libero dolorem, ex consequatur atque ea nisi et perferendis nemo totam facere quas laudantium, quisquam illo praesentium sint, sit quaerat ab quis. Eos optio explicabo animi praesentium architecto reprehenderit id doloribus laborum molestiae suscipit sed facilis quae excepturi, nam dolorem sunt minima incidunt quas accusantium reiciendis a consequatur ullam. Blanditiis.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nesciunt sunt voluptas eaque, doloremque modi dolor sequi. Minus nesciunt nemo id doloremque sed impedit earum quaerat atque molestiae dolorem? Sapiente.
+        </div>
+      </div>
+  </body>
+</html>
